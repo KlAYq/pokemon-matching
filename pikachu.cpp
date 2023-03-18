@@ -70,6 +70,7 @@ bool is_valid_path(char board[][MAX], int m, int n, int r1, int c1, int r2, int 
     if (board[r1][c1] != board[r2][c2]) {
         // Different letters
         return false;
+        cout << "abc" << endl;
     }
 
     if (r1 == r2 && c1 == c2) {
